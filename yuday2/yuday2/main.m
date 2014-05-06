@@ -13,6 +13,10 @@
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
+        
+        int mumerator=1;
+        int denominator=3;
+        NSLog(@"the fraction is %i/%i",mumerator,denominator);
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([objcAppDelegate class]));
     }
 }
